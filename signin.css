@@ -1,0 +1,99 @@
+:root {
+  --red-color: #e50914;
+}
+.showcase {
+  height: 100vh;
+}
+
+.showcase-content {
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-150%, -80%); */
+  margin: auto;
+  max-width: 40rem;
+  border-bottom: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 0.4rem;
+}
+
+.signupForm {
+  max-width: 45rem;
+}
+.center {
+  width: 100%;
+  margin: 1rem 0;
+  box-sizing: border-box;
+  padding: 5em;
+  text-align: center;
+}
+
+.center h2 {
+  text-align: left;
+  padding: 1.5rem 0;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.txt {
+  margin: 2em 0;
+}
+
+input[type="text"],
+input[type="password"] {
+  background: #333;
+  border-radius: 0.4rem;
+  color: white;
+}
+.txt input:focus,
+.txt input:valid {
+  border-bottom: solid 2px #e87c03;
+  border-radius: 0.4em;
+}
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  background: var(--red-color);
+  text-align: center;
+  margin-top: 1em;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.signupLink,
+.signupLink a {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+@media (max-width: 1220px) {
+  .footer {
+    max-width: 80%;
+    padding: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .showcase {
+    background: #000;
+  }
+  .showcase-top a img {
+    width: 100px;
+  }
+  .showcase-content {
+    max-width: 100%;
+  }
+  .center {
+    padding: 2.2em;
+    margin: 0;
+  }
+  .center h2 {
+    font-size: 3rem;
+    padding-top: 0;
+  }
+  .footer {
+    max-width: 100%;
+    padding: 1em;
+    grid-template-columns: 1fr 1fr;
+  }
+}

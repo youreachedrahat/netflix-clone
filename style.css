@@ -172,7 +172,7 @@ img {
 .txt input:valid ~ label {
   top: 0;
   left: -4px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.5rem;
   transform: scale(0.8);
   position: absolute;
