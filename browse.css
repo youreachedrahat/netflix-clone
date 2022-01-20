@@ -34,18 +34,17 @@ body {
   justify-content: space-between;
   margin-right: 2em;
   position: relative;
+  margin-top: 2rem;
 }
 .showcase-top ul li {
-  padding: 0 1em;
+  padding: 0em;
+  margin-right: 0;
+  margin-left: 0;
 }
 .showcase-top ul li a {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #fff;
   scale: 0.9;
-}
-.showcase-top ul li a:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .content {
@@ -101,12 +100,24 @@ body {
   .content p {
     font-size: 1.4rem;
   }
+
+  .showcase-top ul {
+    margin-right: 1em;
+    margin-top: 2rem;
+  }
+
+  .toggle {
+    font-size: 1.5rem;
+
+    width: 8rem;
+    height: auto;
+  }
 }
 
 @media (max-width: 450px) {
   .showcase {
     height: 85vh;
-    background-position: -40rem;
+    background-position: -45rem;
   }
   .content {
     margin-top: 13rem;
@@ -117,6 +128,26 @@ body {
   }
   .content p {
     font-size: 1.3rem;
+  }
+  .showcase-top ul {
+    margin-right: 0em;
+    margin-top: 1.7rem;
+  }
+
+  .toggle {
+    font-size: 1.3rem;
+    width: 6rem;
+    height: 3rem;
+    margin: 1.7rem 0;
+  }
+
+  .showcase-top a img {
+    width: 11rem;
+  }
+  .showcase-top {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    grid-gap: 3rem;
   }
 }
 section {

@@ -65,6 +65,10 @@ function showseries(){
     }
 }
 
+function show(){
+  showmovies();
+  showseries();
+}
 
 
 // var countMovie = 1;
