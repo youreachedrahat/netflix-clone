@@ -88,7 +88,7 @@ it redirects you to the home page when you click on it.
 
 - Password input field.
 
-- Sign-in Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for authentication. It has also an error handling function.
+- Sign-in Button: It has a validation option.
 
 - Link to Sign-up Page:  it redirects you to the sign-up page. 
 
@@ -120,7 +120,7 @@ it redirects you to the home page when you click on it.
 
 - Password input field.
 
-- Sign-up Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for registration. It has also an error handling function.
+- Sign-up Button: It has a validation option
 
 - Link to Sign-in Page:  it redirects you to the sign-in page.
 
@@ -186,10 +186,17 @@ It contains useful links users may need it.
 
 I have built this project using the following tools & techniques:
 - HTML 5.0
+    - Made the structure of the website by identifying the
+appropriate elements required
 - CSS
 - CSS Modules.
+    - Styling and align items on the page to make structure accurate,
+and for effects such as hover and focus.
 - VSCode.
+    - IDE- to quickly format and write syntax
 - Javascript
+    - FAQ Section: hiding and showing accordion on click
+    - Browse Page: display of movies card on category option
 - Github Actions.
 - Github Pages.
 
