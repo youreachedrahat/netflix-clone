@@ -144,11 +144,11 @@ body {
   .showcase-top a img {
     width: 11rem;
   }
-  .showcase-top {
+  /*.showcase-top {
     display: grid;
     grid-template-rows: 1fr, 1fr;
     grid-gap: 3rem;
-  }
+  }*/
 }
 section {
   background: #000;
