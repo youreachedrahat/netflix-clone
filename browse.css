@@ -168,6 +168,8 @@ section {
   grid-gap: 2em;
   grid-template-columns: repeat(15, 1fr);
   max-width: 98%;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
 }
 .box div {
   width: 30rem;
